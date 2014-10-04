@@ -14,7 +14,7 @@ BuildRequires:	rubygems
 BuildRequires:  rubygem(glib2)
 BuildRequires:  rubygem-glib2-devel
 BuildRequires:	rubygem(gobject-introspection)
-BuildRequires:	rubygem-gobject-instrospection-devel
+BuildRequires:	rubygem-gobject-introspection-devel
 BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(glib-2.0)
 
