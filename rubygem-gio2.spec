@@ -4,8 +4,8 @@
 Summary:	Ruby binding of gio-2.x
 Name:		rubygem-%{rbname}
 
-Version:	1.1.5
-Release:	8
+Version:	2.2.0
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://ruby-gnome2.sourceforge.jp/
@@ -13,6 +13,8 @@ Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:  rubygem(glib2)
 BuildRequires:  rubygem-glib2-devel
+BuildRequires:	rubygem(gobject-introspection)
+BuildRequires:	rubygem-gobject-instrospection-devel
 BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(glib-2.0)
 
@@ -38,13 +40,13 @@ Documents, RDoc & RI documentation for %{name}.
 %gem_install
 
 %files
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
-%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb
-%{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
+%{gem_dir}/gems/%{rbname}-%{version}/lib/*.rb
+%{gem_dir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb
+%{gem_dir}/specifications/%{rbname}-%{version}.gemspec
 %{ruby_sitearchdir}/%{rbname}.so
 
 %files doc
-%doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+%doc %{gem_dir}/doc/%{rbname}-%{version}
 
 
 %changelog
