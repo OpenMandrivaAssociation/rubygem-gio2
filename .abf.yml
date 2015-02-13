@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   gio2-2.2.0.gem: 1299570008841f35c0a4d547fd7f15c61f7cc3dd
+sources:
+  gio2-2.2.4.gem: 7ca74f4cc51e2d8db605cbfb5476b31fea53d9aa
