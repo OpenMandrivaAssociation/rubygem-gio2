@@ -4,8 +4,8 @@
 Summary:	Ruby binding of gio-2.x
 Name:		rubygem-%{rbname}
 
-Version:	2.2.4
-Release:	2
+Version:	3.0.7
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://ruby-gnome2.sourceforge.jp/
