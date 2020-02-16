@@ -3,3 +3,4 @@ removed_sources:
   gio2-2.2.4.gem: 7ca74f4cc51e2d8db605cbfb5476b31fea53d9aa
 sources:
   gio2-3.0.7.gem: 20ed8bb69c52c1318ad88e7f67d9e2cd3f686510
+  gio2-3.4.1.gem: 456f06c16b2a08d42b3ce255ca8df6db394b2b8d
